@@ -17,7 +17,8 @@ const CTASection = () => {
                                         className="rounded-3xl object-cover object-center shadow-2xl" 
                                         src="/assets/img5.jpg" 
                                         alt="Barbers cutting hair" 
-                                        fill={true}
+                                        width={400}
+                                        height={400}
                                     />
                                 </div>
                             </div>

@@ -42,7 +42,7 @@ const Gallery = () => {
               className="object-cover rounded-lg shadow-lg transition-transform transform group-hover:scale-105"
               style={{
                 width: '100%',
-                height: '300px', 
+                height: '300px'
               }}
               loading="lazy"
             />

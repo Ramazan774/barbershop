@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Lightbox from '../../components/Lightbox';
+import Lightbox from '../../components/LightBox';
 
 const Gallery = () => {
     const [images] = useState([

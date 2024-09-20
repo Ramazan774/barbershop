@@ -24,7 +24,7 @@ const AboutSection = () => {
           src="/assets/img22.jpg"
           alt="Picture of barbers with tools"
           width={600}
-          height={400}
+          height={600}
           className="rounded-lg shadow-lg"
         />
       </div>

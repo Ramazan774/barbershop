@@ -21,7 +21,7 @@ const Lightbox = ({ image, onClose, onNext, onPrev }) => {
                 className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-3xl z-60 md:left-10"
             >&larr;</button>
             <div className="relative z-50">
-                <Image src={image} alt="Lightbox image" width={800} height={800} fill={true} />
+                <Image src={image} alt="Lightbox image" width={800} height={800} />
             </div>
             <button 
                 onClick={onNext} 
