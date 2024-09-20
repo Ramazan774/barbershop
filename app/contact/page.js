@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Map from "../../components/Map";
 
 const ContactPage = () => {
   return (
@@ -181,6 +182,10 @@ const ContactPage = () => {
                 </div>
               </form>
             </div>
+          </div>
+          <div>
+            <h1>Map here</h1>
+            <Map />
           </div>
         </div>
       </div>
