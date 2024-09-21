@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.8",
+    "@netlify/plugin-nextjs": "^5.7.2",
     "@nextui-org/input": "^2.2.4",
     "@nextui-org/react": "^2.4.6",
     "@nextui-org/system": "^2.2.5",
