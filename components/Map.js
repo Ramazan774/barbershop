@@ -1,7 +1,6 @@
 "use client";
 
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
-import { useState } from 'react';
 
 const containerStyle = {
   width: '100%',
@@ -19,23 +18,11 @@ const Map = () => {
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY 
   });
 
-  const [map, setMap] = useState(null);
-
-  const onLoad = (mapInstance) => {
-    setMap(mapInstance);
-  };
-
-  const onUnmount = () => {
-    setMap(null);
-  };
-
   return isLoaded ? (
     <GoogleMap
       mapContainerStyle={containerStyle}
       center={center}
       zoom={16}
-      onLoad={onLoad}
-      onUnmount={onUnmount}
     >
       <Marker position={center} />
     </GoogleMap>
