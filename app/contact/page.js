@@ -106,7 +106,14 @@ const ContactPage = () => {
             {/* Right Section - Contact Form */}
             <div className="px-6 py-10 sm:px-10 lg:col-span-2 xl:p-12">
               <h3 className="text-2xl font-semibold text-gray-900">Send us a message</h3>
-              <form action="#" name="contact" method="POST" netlify className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <form 
+                action="/success" 
+                name="contact" 
+                method="POST" 
+                data-netlify-recaptcha="true"
+                data-netlify="true"
+                className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+              >
                 <div>
                   <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">First name</label>
                   <div className="mt-1">
@@ -174,7 +181,7 @@ const ContactPage = () => {
                     ></textarea>
                   </div>
                 </div>
-
+                <div data-netlify-recaptcha="true"></div>
                 <div className="sm:col-span-2">
                   <button
                     type="submit"
