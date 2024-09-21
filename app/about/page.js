@@ -31,8 +31,8 @@ const About = () => {
                     <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                       <div className="relative">
                         <Image 
-                          src="/assets/img5.jpg" 
-                          alt="haircut" 
+                          src="/assets/img5.webp" 
+                          alt="Barber cutting hair" 
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" 
                           width={200} 
                           height={200} 
@@ -43,7 +43,7 @@ const About = () => {
                     <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                       <div className="relative">
                         <Image 
-                          src="/assets/img1.jpg" 
+                          src="/assets/img1.webp" 
                           alt="haircut" 
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" 
                           width={200} 
@@ -53,7 +53,7 @@ const About = () => {
                       </div>
                       <div className="relative">
                         <Image 
-                          src="/assets/img2.jpg" 
+                          src="/assets/img2.webp" 
                           alt="haircut" 
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" 
                           width={200}
@@ -64,7 +64,7 @@ const About = () => {
                     <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                       <div className="relative">
                         <Image 
-                          src="/assets/img3.jpg" 
+                          src="/assets/img3.webp" 
                           alt="haircut" 
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" 
                           width={200} 
@@ -74,7 +74,7 @@ const About = () => {
                       </div>
                       <div className="relative">
                         <Image 
-                          src="/assets/img4.jpg" 
+                          src="/assets/img4.webp" 
                           alt="haircut" 
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" 
                           width={200} 
@@ -124,8 +124,8 @@ const About = () => {
               <li>
                 <Image 
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" 
-                  src="/assets/img15.jpg" 
-                  alt="Moustafa" 
+                  src="/assets/img15.webp" 
+                  alt="Moustafa Barber" 
                   width={100} 
                   height={500} 
                   style={{ width: '200px', height: '200px' }} 
@@ -145,8 +145,8 @@ const About = () => {
               <li>
                 <Image 
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" 
-                  src="/assets/img16.jpg" 
-                  alt="Sam" 
+                  src="/assets/img16.webp" 
+                  alt="Sam Barber" 
                   width={100} 
                   height={500} 
                   style={{ width: '200px', height: '200px' }} 
@@ -166,8 +166,8 @@ const About = () => {
               <li>
                 <Image 
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" 
-                  src="/assets/img17.jpg" 
-                  alt="Uday" 
+                  src="/assets/img17.webp" 
+                  alt="Uday Barber" 
                   width={100} 
                   height={100} 
                   style={{ width: '200px', height: '200px' }} 
@@ -187,8 +187,8 @@ const About = () => {
               <li>
                 <Image 
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-fill shadow-lg" 
-                  src="/assets/img18.jpg" 
-                  alt="Ibra Dash" 
+                  src="/assets/img18.webp" 
+                  alt="Ibra Dash Barber" 
                   width={500} 
                   height={500} 
                   style={{ width: '200px', height: '200px' }} 
@@ -208,8 +208,8 @@ const About = () => {
               <li>
                 <Image 
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" 
-                  src="/assets/img19.jpg" 
-                  alt="Nèstor" 
+                  src="/assets/img19.webp" 
+                  alt="Nèstor Barber" 
                   width={100} 
                   height={100} 
                   style={{ width: '200px', height: '200px' }} 

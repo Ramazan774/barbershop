@@ -15,7 +15,7 @@ const CTASection = () => {
                                 <div className="aspect-h-6 aspect-w-10 sm:aspect-h-1 sm:aspect-w-2 lg:aspect-w-1">
                                     <Image 
                                         className="rounded-3xl object-cover object-center shadow-2xl" 
-                                        src="/assets/img5.jpg" 
+                                        src="/assets/img5.webp" 
                                         alt="Barbers cutting hair" 
                                         width={400}
                                         height={400}

@@ -27,7 +27,7 @@ const Navbar = () => {
         </Link>
         <Link href="/" className={`flex items-center`}>
           <Image
-            src="/assets/logo.jpg"
+            src="/assets/logo.webp"
             alt="Company Logo"
             width={100}
             height={100}

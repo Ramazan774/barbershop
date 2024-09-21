@@ -21,8 +21,8 @@ const AboutSection = () => {
 
       <div className="lg:w-1/2">
         <Image
-          src="/assets/img22.jpg"
-          alt="Picture of barbers with tools"
+          src="/assets/img36.webp"
+          alt="Picture of barbershop store front"
           width={600}
           height={600}
           className="rounded-lg shadow-lg"

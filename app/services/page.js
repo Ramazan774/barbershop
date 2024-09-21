@@ -16,12 +16,12 @@ const Services = () => {
   }
 
   const services = [
-    { name: 'Haircut/Fade', image: '/assets/img25.jpg', svg: '/assets/haircut-tools-barber-tools-haircut.svg' },
-    { name: 'Facial steaming', image: '/assets/img23.jpg', svg: '/assets/face-scan-circle.svg'},
-    { name: 'Beard Trim/Lining Up', image: '/assets/img24.jpg', svg: '/assets/beard-male.svg' },
-    { name: 'Ear and Nose Waxing', image: '/assets/img26.jpg', svg: '/assets/ear.svg' },
-    { name: 'Eyebrow Lining Up', image: '/assets/img27.jpg', svg: '/assets/eyebrow.svg' },
-    { name: 'Hair Styling', image: '/assets/img1.jpg', svg: '/assets/haircut-tools-barber-tools-haircut.svg' },
+    { name: 'Haircut/Fade', image: '/assets/img25.webp', svg: '/assets/haircut-tools-barber-tools-haircut.svg' },
+    { name: 'Facial steaming', image: '/assets/img23.webp', svg: '/assets/face-scan-circle.svg'},
+    { name: 'Beard Trim/Lining Up', image: '/assets/img24.webp', svg: '/assets/beard-male.svg' },
+    { name: 'Ear and Nose Waxing', image: '/assets/img26.webp', svg: '/assets/ear.svg' },
+    { name: 'Eyebrow Lining Up', image: '/assets/img27.webp', svg: '/assets/eyebrow.svg' },
+    { name: 'Hair Styling', image: '/assets/img1.webp', svg: '/assets/haircut-tools-barber-tools-haircut.svg' },
   ];
   
   const servicesWithPrices = [
@@ -38,7 +38,7 @@ const Services = () => {
 
   return (
     <main className="isolate">
-      <div className="relative h-96 bg-center bg-cover" style={{ backgroundImage: 'url("/assets/img20.jpg")' }}>
+      <div className="relative h-96 bg-center bg-cover" style={{ backgroundImage: 'url("/assets/img20.webp")' }}>
         <div className="absolute inset-0 bg-black opacity-75"></div>
         <div className="relative z-10 flex items-center justify-center h-full">
           <h2 className="text-5xl font-bold text-white text-center tracking-tight sm:text-6xl">

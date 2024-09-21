@@ -8,21 +8,21 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { src: '/assets/img1.jpg', alt: 'Image 1' },
-    { src: '/assets/img2.jpg', alt: 'Image 2' },
-    { src: '/assets/img3.jpg', alt: 'Image 3' },
-    { src: '/assets/img4.jpg', alt: 'Image 4' },
-    { src: '/assets/img5.jpg', alt: 'Image 5' },
-    { src: '/assets/img6.jpg', alt: 'Image 6' },
-    { src: '/assets/img7.jpg', alt: 'Image 7' },
-    { src: '/assets/img8.jpg', alt: 'Image 8' },
+    { src: '/assets/img1.webp', alt: 'Image 1' },
+    { src: '/assets/img2.webp', alt: 'Image 2' },
+    { src: '/assets/img3.webp', alt: 'Image 3' },
+    { src: '/assets/img4.webp', alt: 'Image 4' },
+    { src: '/assets/img5.webp', alt: 'Image 5' },
+    { src: '/assets/img6.webp', alt: 'Image 6' },
+    { src: '/assets/img7.webp', alt: 'Image 7' },
+    { src: '/assets/img8.webp', alt: 'Image 8' },
   ];
 
   return (
     <section
       className="relative py-16 px-4 lg:px-16"
       style={{
-        background: `url('/assets/marble-background.jpg')`, 
+        background: `url('/assets/marble-background.webp')`, 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
