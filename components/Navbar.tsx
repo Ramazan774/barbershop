@@ -64,7 +64,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <Link href="/" onClick={closeMenu} className="-m-1.5 p-1.5">
               <Image
-                src="/assets/logo.jpg"
+                src="/assets/logo.webp"
                 alt="Company Logo"
                 width={100}
                 height={100}
