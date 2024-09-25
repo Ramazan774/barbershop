@@ -25,7 +25,7 @@ const Reviews = () => {
                     </div>
                     <figure class="mt-10 flex flex-auto flex-col justify-between">
                     <blockquote class="text-lg leading-8 text-gray-900">
-                        <p>“This place is hands down the best barbershop in Madison! Their barbers are able to do all style of haircuts perfectly whether you want a fade, scissor cut, line up you name it. They listen attentively and ensure your satisfied before you leave, you don't feel like they're in a rush to get you out of their chair like other shops. Highly recommend!”</p>
+                        <p>{`This place is hands down the best barbershop in Madison! Their barbers are able to do all style of haircuts perfectly whether you want a fade, scissor cut, line up you name it. They listen attentively and ensure your satisfied before you leave, you don't feel like they're in a rush to get you out of their chair like other shops. Highly recommend!`}</p>
                     </blockquote>
                     <figcaption class="mt-10 flex items-center gap-x-6">
                         <div class="text-base">
@@ -55,10 +55,10 @@ const Reviews = () => {
                     </div>
                     <figure class="mt-10 flex flex-auto flex-col justify-between">
                     <blockquote class="text-lg leading-8 text-gray-900">
-                        <p>“I asked one of my gym buddy's. Where he got that fresh cut? He told me go here man. Abraham my barber will hook you up. I have been to numerous barbers. 
+                        <p>{`I asked one of my gym buddy's. Where he got that fresh cut? He told me go here man. Abraham my barber will hook you up. I have been to numerous barbers. 
                             I am very picky on how I want my hair cut. Abraham Is professional and a master of his craft. I get my hair cut here every 2 weeks. Abraham loves what he does and his 
                             work shows definitely. He is not my barber anymore we are family now. I love how he takes his time on you and really cares about giving you his best cut. Hands down 
-                            the best barber in the madison area. I would recommend anybody to go here. You will not be disappointed.”</p>
+                            the best barber in the madison area. I would recommend anybody to go here. You will not be disappointed.`}</p>
                     </blockquote>
                     <figcaption class="mt-10 flex items-center gap-x-6">
                         <div class="text-base">
