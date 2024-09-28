@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useCallback, useEffect } from 'react';
 import Image from 'next/image';
-import Lightbox from '../../components/LightBox';
 
 const ArrowButton = ({ direction, onClick }) => (
     <button
