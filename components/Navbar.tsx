@@ -16,10 +16,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="absolute top-0 w-full py-6 flex justify-center z-20 font-sans">
+    <nav className="absolute top-0 w-full py-6 flex justify-center font-sans z-50">
       {/* Desktop Menu */}
-      <div className="hidden lg:flex items-center space-x-6 text-white text-lg font-semibold">
-        <Link href="/about" className={`text-yellow-500 hover:bg-black hover:text-white rounded-lg`}>
+      <div className="relative hidden merienda lg:flex items-center space-x-6 text-white text-lg font-semibold">
+        <Link href="/about" className={`text-yellow-500 hover:bg-black hover:text-white rounded-lg px-3 py-2`}>
           About
         </Link>
         <Link href="/services" className={`text-yellow-500 hover:bg-black hover:text-white rounded-lg`}>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
       <button
         onClick={toggleMenu}
-        className="lg:hidden text-gray-500 ml-auto"
+        className="lg:hidden text-yellow-500 ml-auto mr-6"
         aria-label="Toggle menu"
       >
         <svg

@@ -9,7 +9,7 @@ const ContactPage = () => {
         <div className="relative bg-white shadow-xl rounded-lg overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Left Section - Location & Contact Info */}
-            <div className="relative bg-gradient-to-br from-yellow-500 to-blue-900 px-6 py-10 sm:px-10 xl:p-12">
+            <div className="roboto relative bg-gradient-to-br from-yellow-500 to-blue-900 px-6 py-10 sm:px-10 xl:p-12">
               <div className="inset-0 bg-pattern opacity-10"></div>
               
               <h2 className="text-2xl font-bold text-white">Location & Hours</h2>
@@ -104,7 +104,7 @@ const ContactPage = () => {
             </div>
 
             {/* Right Section - Contact Form */}
-            <div className="px-6 py-10 sm:px-10 lg:col-span-2 xl:p-12">
+            <div className="merienda px-6 py-10 sm:px-10 lg:col-span-2 xl:p-12">
               <h3 className="text-2xl font-semibold text-gray-900">Send us a message</h3>
               <form 
                 action="/success" 
@@ -184,7 +184,7 @@ const ContactPage = () => {
                 <div className="sm:col-span-2">
                   <button
                     type="submit"
-                    className="w-full inline-flex justify-center rounded-md border border-transparent bg-yellow-500 px-6 py-3 text-base font-medium text-black shadow-sm hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 transition"
+                    className="merienda w-full inline-flex justify-center rounded-2xl border border-transparent bg-yellow-500 px-6 py-3 text-base font-medium text-black shadow-sm hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 transition"
                   >
                     Submit
                   </button>

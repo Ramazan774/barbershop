@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
       <footer className="bg-[#222222]">
-      <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
+      <div className="roboto mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           <Link href="https://www.facebook.com/Magicobarbershop2020/about/?_rdr" target="_blank" className="text-gray-200 hover:text-gray-400">
             <span className="sr-only">Facebook</span>
@@ -20,7 +20,8 @@ const Footer = () => {
           </Link>
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-xs leading-5 text-gray-200">&copy; 2024 Magico Barbershop, Inc. All rights reserved.</p>
+          <p className="text-center text-xs leading-5 text-gray-200">&copy; {new Date().getFullYear()} Magico Barbershop, Inc. All rights reserved.</p>
+          <p className="text-xs leading-5 text-gray-100 text-center md:text-center">Created by<a href="https://novsweb.com"> Novs</a> Web Design Group</p>
         </div>
       </div>
     </footer>

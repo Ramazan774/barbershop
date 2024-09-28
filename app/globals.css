@@ -90,3 +90,11 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.merienda {
+  font-family: var(--font-merienda);
+}
+
+.roboto {
+  font-family: var(--font-roboto);
+}

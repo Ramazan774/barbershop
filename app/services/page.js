@@ -41,7 +41,7 @@ const Services = () => {
       <div className="relative h-96 bg-center bg-cover" style={{ backgroundImage: 'url("/assets/img20.webp")' }}>
         <div className="absolute inset-0 bg-black opacity-75"></div>
         <div className="relative z-10 flex items-center justify-center h-full">
-          <h2 className="text-5xl font-bold text-white text-center tracking-tight sm:text-6xl">
+          <h2 className="merienda text-5xl font-bold text-white text-center tracking-tight sm:text-6xl">
             Services We Provide
           </h2>
         </div>
@@ -77,13 +77,13 @@ const Services = () => {
         <div className="container mx-auto px-6">
           <div className="flex justify-center mb-8">
             <button
-              className={`px-4 py-2 mx-2 rounded-lg ${category === 'Hair' ? 'bg-black text-yellow-500' : 'bg-yellow-500 text-black'}`}
+              className={`px-4 py-2 mx-2 rounded-2xl ${category === 'Hair' ? 'bg-black text-yellow-500 hover:text-yellow-100' : 'bg-yellow-500 hover:text-yellow-900 text-black'}`}
               onClick={() => setCategory('Hair')}
             >
               Hair Services
             </button>
             <button
-              className={`px-4 py-2 mx-2 rounded-lg ${category === 'Facial' ? 'bg-black text-yellow-500' : 'bg-yellow-500 text-black'}`}
+              className={`px-4 py-2 mx-2 rounded-2xl ${category === 'Facial' ? 'bg-black text-yellow-500 hover:text-yellow-100' : 'bg-yellow-500 hover:text-yellow-900 text-black'}`}
               onClick={() => setCategory('Facial')}
             >
               Facial Services

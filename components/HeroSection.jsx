@@ -5,14 +5,16 @@ import Image from 'next/image';
 const HeroSection = () => {
   return (
     <section className="relative h-screen lg:h-screen w-full">
-      <Image
-        src="/assets/img35.webp"
-        alt="Background photo"
-        fill={true}
-        className="z-10 object-cover"
-        priority={true} 
-      />
-      <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-center text-white px-6">
+        <Image
+          src="/assets/img35.webp"
+          alt="Background photo"
+          fill={true}
+          className="object-cover md:object-center object-top"
+          sizes="100vw"
+          priority={true}
+        />
+      <div className="absolute inset-0 bg-black opacity-50 md:opacity-70"></div> 
+      <div className="absolute roboto inset-0 flex flex-col items-center justify-center text-center text-white px-6">
         <p className="text-sm lg:text-lg mb-2">
           Haircuts, shaves, and everything else
         </p>
@@ -24,7 +26,7 @@ const HeroSection = () => {
         </p>
         <button
           onClick={() => window.open('https://book.squareup.com/appointments/mlbx6u23qrpezz/location/L85JSC3H0SKXW/services?buttonTextColor=ffffff&color=ff1616&locale=en&referrer=so', '_blank')}
-          className="bg-yellow-500 text-black font-bold py-4 px-8 rounded-md shadow-lg hover:bg-yellow-400 transition duration-300"
+          className="merienda bg-yellow-500 text-black font-bold py-4 px-8 rounded-2xl shadow-lg hover:bg-yellow-400 transition duration-300"
           style={{ minWidth: '150px', minHeight: '48px', fontSize: '18px' }} 
         >
           Book an Appointment

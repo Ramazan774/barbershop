@@ -3,15 +3,15 @@ import React from 'react';
 
 const AboutSection = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-between py-12 lg:py-24 px-6 lg:px-24 bg-gray-50">
-      <div className="lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left">
-        <h1 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
+    <section className="container mx-auto flex flex-col lg:flex-row items-center justify-between py-12 lg:py-24 px-6 lg:px-24">
+      <div className="roboto lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left">
+        <h1 className="text-4xl lg:text-7xl font-bold text-gray-900 mb-4">
           Where Tradition Meets Style
         </h1>
-        <h2 className="text-xl lg:text-2xl text-gray-700 mb-6">
+        <h2 className="text-2xl lg:text-4xl text-gray-700 mb-6">
           Crafting the Perfect Cut, Every Time
         </h2>
-        <p className="text-gray-600 leading-relaxed">
+        <p className="text-gray-600 text-lg lg:text-xl leading-relaxed">
           At our barbershop, we pride ourselves on offering more than just a haircut—we offer an experience.
           Our skilled barbers are dedicated to delivering the finest cuts, shaves, and grooming services, 
           tailored to your personal style. From modern trends to classic looks, we combine tradition 
