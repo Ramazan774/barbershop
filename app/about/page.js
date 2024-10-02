@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import ContactSection from '@/components/ContactSection';
 
 const About = () => {
     return (
@@ -228,6 +229,7 @@ const About = () => {
               </li>
             </ul>
           </div>
+          <ContactSection />
         </main>
       </div>
 )

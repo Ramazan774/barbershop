@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import ContactSection from '@/components/ContactSection';
 
 const Services = () => {
   const [category, setCategory] = useState('Hair');
@@ -102,6 +103,7 @@ const Services = () => {
           </ul>
         </div>
       </div>
+      <ContactSection />
     </main>
   );
 };

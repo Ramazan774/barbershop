@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useCallback, useEffect } from 'react';
 import Image from 'next/image';
+import ContactSection from '@/components/ContactSection';
 
 const ArrowButton = ({ direction, onClick }) => (
     <button
@@ -84,40 +85,41 @@ const Gallery = () => {
   }, [images.length]);
 
     return (
-        <div className='mb-10'>
-            <div className="merienda text-center mt-40 mb-10">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Gallery</h2>
-                <p className="mt-4 mb-4 text-lg leading-8 text-gray-600">{`See some of our memories`}</p>
-            </div>
-            <div className="py-16 px-4 sm:px-6 lg:px-8">
-                <div className="max-w-7xl mx-auto">
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-                        {images.map((src, index) => (
-                        <div key={src} className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg">
-                            <Image
-                                src={src}
-                                alt={`Gallery image ${index + 1}`}
-                                width={400}
-                                height={400}
-                                className="w-full h-full object-cover cursor-pointer transform transition-transform hover:scale-105"
-                                onClick={() => handleImageClick(index)}
-                                loading="lazy"
-                            />
-                        </div>
-                        ))}
-                    </div>
-                </div>
-            </div>
-            {selectedImage !== null && (
-                <ImageModal
-                    src={images[selectedImage]}
-                    alt={`Gallery image ${selectedImage + 1}`}
-                    onClose={handleClose}
-                    onPrev={handlePrev}
-                    onNext={handleNext}
-                />
-            )}
+      <div className='mb-10'>
+        <div className="merienda text-center mt-40 mb-10">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Gallery</h2>
+            <p className="mt-4 mb-4 text-lg leading-8 text-gray-600">{`See some of our memories`}</p>
         </div>
+        <div className="py-16 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+              {images.map((src, index) => (
+                <div key={src} className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg">
+                    <Image
+                        src={src}
+                        alt={`Gallery image ${index + 1}`}
+                        width={400}
+                        height={400}
+                        className="w-full h-full object-cover cursor-pointer transform transition-transform hover:scale-105"
+                        onClick={() => handleImageClick(index)}
+                        loading="lazy"
+                    />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <ContactSection />
+        {selectedImage !== null && (
+            <ImageModal
+                src={images[selectedImage]}
+                alt={`Gallery image ${selectedImage + 1}`}
+                onClose={handleClose}
+                onPrev={handlePrev}
+                onNext={handleNext}
+            />
+        )}
+      </div>
     );
 };
 
