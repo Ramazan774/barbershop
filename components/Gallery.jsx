@@ -110,7 +110,7 @@ const Gallery = () => {
       </div>
       <div className="mt-12 text-center">
         <Link href="/work" className="merienda inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-2xl shadow-sm text-black bg-yellow-500 hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 transition-colors duration-200">
-          See More
+          View Gallery
         </Link>
       </div>
       {selectedImage !== null && (

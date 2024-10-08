@@ -13,7 +13,7 @@ const HeroSection = () => {
           sizes="100vw"
           priority={true}
         />
-      <div className="absolute inset-0 bg-black opacity-50 md:opacity-70"></div> 
+      <div className="absolute inset-0 bg-black opacity-50 md:opacity-70" aria-hidden="true"></div> 
       <div className="absolute roboto inset-0 flex flex-col items-center justify-center text-center text-white px-6">
         <p className="text-sm lg:text-lg mb-2">
           Haircuts, shaves, and everything else

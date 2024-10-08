@@ -10,7 +10,7 @@ const ContactPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Left Section - Location & Contact Info */}
             <div className="roboto relative bg-gradient-to-br from-yellow-500 to-blue-900 px-6 py-10 sm:px-10 xl:p-12">
-              <div className="inset-0 bg-pattern opacity-10"></div>
+              <div className="inset-0 bg-pattern opacity-10" aria-hidden="true"></div>
               
               <h2 className="text-2xl font-bold text-white">Location & Hours</h2>
               <ul className="mt-6 space-y-2 text-base text-indigo-50">
@@ -75,7 +75,7 @@ const ContactPage = () => {
               </dl>
               <ul role="list" className="mt-8 flex space-x-6">
                 <li>
-                  <Link href="https://www.facebook.com/Magicobarbershop2020/about/?_rdr" target="_blank" className="text-indigo-200 hover:text-white transition">
+                  <Link href="https://www.facebook.com/Magicobarbershop2020/about/?_rdr" target="_blank" className="text-indigo-200 hover:text-white transition" alt="Facebook Logo">
                     <span className="sr-only">Facebook</span>
                     <svg className="h-6 w-6" fill="black" viewBox="0 0 20 20" aria-hidden="true">
                       <path
@@ -87,7 +87,7 @@ const ContactPage = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.instagram.com/magico.barbershop/" target="_blank" className="text-indigo-200 hover:text-white transition">
+                  <Link href="https://www.instagram.com/magico.barbershop/" target="_blank" className="text-indigo-200 hover:text-white transition" alt="Instagram Logo">
                     <span className="sr-only">Instagram</span>
                     <svg
                       className="h-6 w-6"

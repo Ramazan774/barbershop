@@ -95,7 +95,7 @@ const Navbar = () => {
               className="-m-2.5 rounded-md p-2.5 text-yellow-500"
               onClick={closeMenu}
             >
-              <span className="sr-only">Close menu</span>
+              <span className="sr-only" aria-hidden="true">Close menu</span>
               <svg
                 className="h-6 w-6"
                 fill="none"
